@@ -1,15 +1,12 @@
 class Shellgpt < Formula
     VERSION = "0.2.0-alpha".freeze
-    
-    desc "An AI-powered command line assistant"
-    homepage "https://github.com/yourusername/shellgpt"
-    version VERSION
   
-    on_macos do
-      url "https://github.com/yourusername/shellgpt/releases/download/v#{VERSION}/shellgpt-mac-x86_64.tar.gz"
-      sha256 "d92fe773a2c8d80f0844a5a2ef8b8797f6bee893b5d8499e2947648b4f4781fe"
-      license "MIT"
-    end
+    desc "AI-powered command-line assistant"
+    homepage "https://github.com/boeschj/shellgpt"
+    url "https://github.com/boeschj/shellgpt/releases/download/v#{VERSION}/shellgpt-mac-x86_64.tar.gz"
+    sha256 "d92fe773a2c8d80f0844a5a2ef8b8797f6bee893b5d8499e2947648b4f4781fe"
+    version VERSION
+    license "MIT"
   
     def install
       bin.install "shellgpt"
