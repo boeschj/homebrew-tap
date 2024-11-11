@@ -1,10 +1,10 @@
 class Shellgpt < Formula
-    VERSION = "0.2.0-alpha".freeze
+    VERSION = "0.2.1".freeze
   
     desc "AI-powered command-line assistant"
     homepage "https://github.com/boeschj/shellgpt"
     url "https://github.com/boeschj/shellgpt/releases/download/v#{VERSION}/shellgpt-mac-x86_64.tar.gz"
-    sha256 "d92fe773a2c8d80f0844a5a2ef8b8797f6bee893b5d8499e2947648b4f4781fe"
+    sha256 "59e44eae949eb890a3d00bc2e3088a0f92b8f71a1200846863385a7188616b07"
     version VERSION
     license "MIT"
   
