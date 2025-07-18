@@ -4,7 +4,7 @@ class Commandlm < Formula
     desc "AI-powered command-line assistant"
     homepage "https://github.com/boeschj/commandlm"
     url "https://github.com/boeschj/commandlm/releases/download/v#{VERSION}/commandlm-mac-x86_64.tar.gz"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "20e0041ff64a4b0557e3381921cf65cd05ba99a37c8bdbcc7c22cfd74eb5bc54"
     version VERSION
     license "MIT"
   
