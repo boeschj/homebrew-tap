@@ -1,16 +1,16 @@
 class Commandlm < Formula
-    VERSION = "0.3.0".freeze
+    VERSION = "1.0.0".freeze
   
     desc "AI-powered command-line assistant"
     homepage "https://github.com/boeschj/commandlm"
     url "https://github.com/boeschj/commandlm/releases/download/v#{VERSION}/commandlm-mac-x86_64.tar.gz"
-    sha256 "b5669f33f6d6740fe39443bd0c5d31bc914b708f9f825ad1daca9a35997355b2"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     version VERSION
     license "MIT"
   
     def install
-      bin.install "commandlm"
-      man1.install "commandlm.1" if File.exist? "commandlm.1"
+      bin.install "clm"
+      man1.install "clm.1" if File.exist? "clm.1"
     end
   
     def caveats
@@ -22,6 +22,6 @@ class Commandlm < Formula
     end
   
     test do
-      assert_match "CommandLM", shell_output("#{bin}/commandlm --help")
+      assert_match "CommandLM", shell_output("#{bin}/clm --help")
     end
   end
