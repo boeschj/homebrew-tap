@@ -21,10 +21,10 @@ brew "<formula>"
 
 ## Available Formulas
 
-### ShellGPT
+### CommandLM
 An AI-powered command line assistant.
 ```bash
-brew install boeschj/tap/shellgpt
+brew install boeschj/tap/commandlm
 ```
 
 ## Updating Formulas for New Releases
@@ -41,13 +41,13 @@ When you release a new version of a project, follow these steps to update its fo
 2. Get the SHA256 hash of the new macOS binary
    ```bash
    # Download the release
-   curl -LO https://github.com/boeschj/shellgpt/releases/latest/download/shellgpt-mac-x86_64.tar.gz
+   curl -LO https://github.com/boeschj/commandlm/releases/latest/download/commandlm-mac-x86_64.tar.gz
    
    # Get SHA256 hash
-   shasum -a 256 shellgpt-mac-x86_64.tar.gz
+   shasum -a 256 commandlm-mac-x86_64.tar.gz
    ```
 
-3. Update the formula file (e.g., `Formula/shellgpt.rb`)
+3. Update the formula file (e.g., `Formula/commandlm.rb`)
    - Change the `VERSION = "x.x.x"` at the top of the file
    - Update the `sha256` value with the new hash
 
